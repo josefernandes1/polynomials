@@ -1,24 +1,15 @@
-# README
+# Notes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails was used for easiness of setup.
 
-Things you may want to cover:
+Derivative operation is implemented in the ``Polynomial`` class, please see:
 
-* Ruby version
+[spec/models/polynomial_spec.rb](https://github.com/josefernandes1/polynomials/blob/master/spec/models/polynomial_spec.rb)
 
-* System dependencies
+[app/models/polynomial.rb](https://github.com/josefernandes1/polynomials/blob/master/app/models/polynomial.rb)
 
-* Configuration
+Endpoint is implemented by ``PolynomialsController``, please see:
 
-* Database creation
+[spec/controllers/polynomials_controller_spec.rb](https://github.com/josefernandes1/polynomials/blob/master/spec/controllers/polynomials_controller_spec.rb)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[app/controllers/polynomials_controller.rb](https://github.com/josefernandes1/polynomials/blob/master/app/controllers/polynomials_controller.rb)
